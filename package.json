@@ -1,0 +1,56 @@
+{
+	"devDependencies": {
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"@types/node": "^22.10.5",
+		"undici": "^7.2.0",
+		"ws": "^8.18.0"
+	},
+	"name": "aquats",
+	"version": "1.6.2-typescript",
+	"description": "An Lavalink wrapper, focused in speed, performance, and features, Based in Riffy!",
+	"main": "build/index.ts",
+	"scripts": {
+		"start": "node ./build/index.ts"
+	  },
+	  "exports": {
+		".": {
+		  "require": "./build/index.ts"
+		}
+	  },
+	  "keywords": [
+		"lavalink",
+		"client-wrapper",
+		"discord.js",
+		"node.js",
+		"audio-streaming",
+		"music-bot",
+		"discord-integration",
+		"high-performance",
+		"scalable",
+		"lavalink",
+		"api",
+		"discord",
+		"lavalink.js",
+		"discord.js",
+		"lavalink-api",
+		"cross-platform",
+		"seamless-integration",
+		"community-support",
+		"open-source",
+		"opus"
+	  ],
+	  "author": "mushroom0162 (https://github.com/ToddyTheNoobDud)",
+	  "license": "ISC",
+	  "repository": {
+		"type": "git",
+		"url": "https://github.com/ToddyTheNoobDud/AquaLink"
+	  },
+	  "maintainers": [
+		{
+		  "name": "mushroom0162",
+		  "url": "https://github.com/ToddyTheNoobDud"
+		}
+	  ]
+}
